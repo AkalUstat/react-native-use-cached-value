@@ -1,0 +1,44 @@
+{
+  "name": "react-native-use-cached-value",
+  "version": "1.0.0",
+  "description": "async storage hook to persist settings/values across react-native sessions",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkalUstat/react-native-use-cached-value.git"
+  },
+  "keywords": [
+    "react-native",
+    "async-storage",
+    "react-native-async-storage",
+    "react-native-persist",
+    "persist"
+  ],
+  "author": "AkalUstat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkalUstat/react-native-use-cached-value/issues"
+  },
+  "homepage": "https://github.com/AkalUstat/react-native-use-cached-value#readme",
+  "devDependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-native": "^0.63.27",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.63.3",
+    "typescript": "^4.0.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "@react-native-community/async-storage": "*"
+  },
+  "dependencies": {
+    "use-deep-compare-effect": "^1.4.0"
+  }
+}
